@@ -21,7 +21,6 @@ img {
     height: 40%;
 }
 
-/*
 p {
     display: none;
     padding: 20px;
@@ -32,6 +31,7 @@ ul {
     padding: 20px;
 }
 
+/*
 div:hover p {
     display: block;
 }
