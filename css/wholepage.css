@@ -1,6 +1,6 @@
 body {
   padding: 20px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -9,7 +9,7 @@ preview-container {
 }
 
 p {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 ul {
@@ -21,27 +21,41 @@ img {
     height: 40%;
 }
 
-p {
-    display: none;
-    padding: 20px;
+h1 {
+    font-size: 22px;
+    margin-top: 5px;
 }
 
-ul {
-    display: none;
-    padding: 20px;
+h2 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .ass-type {
   margin: 5px 0;
 }
 
+.button-one{
+    background-color: #6CA67C;
+}
+
+.button-two{
+    background-color: #B0BF1A;
+}
+
+.button-three{
+    background-color: #7CB9E8;
+}
 
 /*
 div:hover p {
     display: block;
 }
 
-div:hover ul {
-    display: block;
-}
 */
