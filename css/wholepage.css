@@ -10,6 +10,7 @@ preview-container {
 
 p {
     font-size: 12px;
+   font-weight: 300;
 }
 
 ul {
@@ -24,11 +25,14 @@ img {
 h1 {
     font-size: 22px;
     margin-top: 5px;
+   font-weight: 500;
 }
 
 h2 {
     font-size: 16px;
     margin-top: 5px;
+   font-weight: 375;
+    
 }
 
 h3 {
@@ -37,8 +41,27 @@ h3 {
     margin-top: 5px;
 }
 
+h4 {
+    font-size: 16px;
+    margin-top: 5px;
+   font-weight: 300;
+}
+
 .ass-type {
   margin: 5px 0;
+    color: white;
+    display: inline-block;
+   padding: 6px 12px;
+   margin-bottom: 0;
+   font-size: 14px;
+   font-weight: 350;
+   line-height: 1.42857143;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: middle;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 4px;
 }
 
 .button-one{
@@ -53,9 +76,19 @@ h3 {
     background-color: #7CB9E8;
 }
 
-/*
-div:hover p {
-    display: block;
+.blob {
+    background: white;
 }
 
-*/
+.badge-one{
+    color: #6CA67C;
+}
+
+.badge-two{
+    color: #B0BF1A;
+}
+
+.badge-three{
+    color: #7CB9E8;
+}
+
