@@ -58,7 +58,7 @@ h4 {
    line-height: 1.42857143;
    text-align: center;
    white-space: nowrap;
-   vertical-align: middle;
+   vertical-align: left;
    background-image: none;
    border: 1px solid transparent;
    border-radius: 4px;
@@ -149,3 +149,58 @@ div.go-to-dataset {
   box-shadow: 0 3px #666;
   transform: translateY(2px);
 }
+
+body {
+  padding : 10px ;
+  
+}
+
+#exTab2 .tab-content {
+  color : white;
+}
+
+#exTab2 .nav-pills > li.active > a {
+    color: white;
+}
+
+#exTab2 .nav-pills > li.active > .all {
+        background-color: #333333;  
+}
+
+#exTab2 .nav-pills > li.active > .fileset {
+        background-color: #6CA67C;  
+}
+
+#exTab2 .nav-pills > li.active > .statistical {
+        background-color: #B0BF1A;  
+}
+
+#exTab2 .nav-pills > li.active > .tabular {
+        background-color: #7CB9E8;  
+}
+
+
+#exTab2 .nav-pills > li > a {
+    border-radius: 0;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #F6F6F6;
+    color: black;
+}
+
+/*
+.red .active a,
+.red .active a:hover {
+    background-color: red;
+}*/
+
+.tab-pane {
+    background-color: none;   
+}
+
+.asset-description {
+    color: black;
+    font-size: 12px;
+    text-align: left;
+    padding: 0px 15px 15px 15px;
+}
+
